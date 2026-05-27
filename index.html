@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>João Batista Bernardo - Advogado Previdenciário</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- POPUP ANTI-GOLPE -->
+<div class="popup-overlay" id="antiGolpePopup">
+  <div class="popup-box">
+    <button class="popup-close" onclick="document.getElementById('antiGolpePopup').style.display='none'" aria-label="Fechar">×</button>
+    <div class="popup-logo-circle">JB</div>
+    <h2>Aviso Importante</h2>
+    <div class="popup-alert-banner">⚠️ Cuidado com Golpes</div>
+    <p>Este escritório <strong>não solicita pagamentos</strong> para liberação de valores judiciais, RPV, precatórios, alvarás ou certidões.</p>
+    <p>Se receber esse tipo de contato, <strong>não efetue qualquer pagamento</strong> e entre em contato imediatamente pelos nossos canais oficiais.</p>
+    <a href="https://wa.me/5511917275963" class="popup-wa-btn" target="_blank">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Falar com o escritório
+    </a>
+    <p class="popup-footer-text">Sua Segurança é Nossa Prioridade</p>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-area">
+    <div class="logo-box">JB</div>
+    <div class="logo-text">
+      <h1>JOÃO BATISTA BERNARDO</h1>
+      <span class="oab-tag">ADVOGADO</span>
+      <span class="oab-num">OAB/SP 531.584</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="header-badge">
+      <svg width="30" height="30" viewBox="0 0 38 38" fill="none">
+        <circle cx="19" cy="19" r="18" stroke="#c9a84c" stroke-width="1.5" fill="rgba(201,168,76,0.08)"/>
+        <circle cx="19" cy="14" r="4" stroke="#c9a84c" stroke-width="1.6"/>
+        <path d="M10 28c0-5 4-8 9-8s9 3 9 8" stroke="#c9a84c" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <div class="texts">
+        <p class="label">ATENDIMENTO ONLINE</p>
+        <p class="sublabel">EM TODO O BRASIL</p>
+      </div>
+    </div>
+    <div class="header-divider"></div>
+    <div class="header-brasil">
+      <svg width="36" height="26" viewBox="0 0 36 26" fill="none">
+        <rect width="36" height="26" rx="3" fill="#009C3B"/>
+        <polygon points="18,3 33,13 18,23 3,13" fill="#FFDF00"/>
+        <circle cx="18" cy="13" r="5.5" fill="#002776"/>
+        <path d="M12.5,13 Q18,10.5 23.5,13" stroke="white" stroke-width="1.2" fill="none"/>
+        <circle cx="15" cy="12" r="0.6" fill="white"/>
+        <circle cx="18" cy="11" r="0.6" fill="white"/>
+        <circle cx="21" cy="12" r="0.6" fill="white"/>
+        <circle cx="17" cy="14" r="0.6" fill="white"/>
+        <circle cx="20" cy="14.5" r="0.6" fill="white"/>
+      </svg>
+      <div class="header-brasil-texts">
+        <span class="brasil-label">BRASIL</span>
+        <span class="brasil-sub">Todo o território</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <h2>BENEFÍCIOS DO <span class="highlight">INSS</span></h2>
+      <h3>Conheça todos os seus direitos</h3>
+      <p>Atendimento especializado em Direito Previdenciário<br>para todo o Brasil, 100% online.</p>
+      <a href="https://wa.me/5511917275963" class="btn-wa" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        QUERO ANALISAR MEU CASO
+      </a>
+    </div>
+    <div class="hero-photo-wrap">
+      <img src="assets/img/joao1.png" alt="Dr. João Batista Bernardo">
+      <div class="advocate-card">
+        <p>JOÃO BATISTA BERNARDO</p>
+        <span>Advogado</span>
+        <span>OAB/SP 531.584</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SITUATIONS -->
+<section class="situations">
+  <h2 class="section-title">SITUAÇÕES QUE <span class="gold">PODEMOS TE AJUDAR.</span></h2>
+  <div class="situations-grid">
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+          <line x1="9" y1="9" x2="15" y2="9"/>
+          <line x1="9" y1="13" x2="15" y2="13"/>
+          <line x1="9" y1="17" x2="15" y2="17"/>
+        </svg>
+      </div>
+      <h3>Planejamento Previdenciário</h3>
+      <p>Analisamos seu histórico contributivo para identificar o melhor momento e a melhor estratégia para sua aposentadoria, com mais segurança e o maior benefício possível.</p>
+    </div>
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+      </div>
+      <h3>Salário-Maternidade</h3>
+      <p>Auxiliamos mães trabalhadoras no pedido do salário-maternidade, com acesso rápido e correto ao benefício junto ao INSS.</p>
+    </div>
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8" r="6"/>
+          <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+        </svg>
+      </div>
+      <h3>Aposentadorias</h3>
+      <p>Atuamos em pedidos de aposentadoria por idade, tempo de contribuição, rural, especial e da pessoa com deficiência, sempre buscando o melhor resultado para o segurado.</p>
+    </div>
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+          <path d="M5.5 11h3l1.5-2.5 1.5 5 1.5-4 1 2.5h3" stroke="#e74c3c" stroke-width="1.8"/>
+        </svg>
+      </div>
+      <h3>Auxílio-Doença</h3>
+      <p>Prestamos suporte completo para concessão ou restabelecimento do auxílio-doença, inclusive em casos de negativa do INSS.</p>
+    </div>
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <circle cx="10" cy="14" r="2.5"/>
+          <line x1="11.8" y1="15.8" x2="14.5" y2="18.5"/>
+        </svg>
+      </div>
+      <h3>Revisão de Benefícios do INSS</h3>
+      <p>Verificamos se o valor do seu benefício está correto e buscamos revisões para aumentar o que você tem direito a receber.</p>
+    </div>
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 11l-4 4-2-2" stroke="#c9a84c" stroke-width="2"/>
+          <circle cx="19" cy="8" r="3" stroke="#c9a84c" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <h3>BPC/LOAS</h3>
+      <p>Atendimento especializado para idosos e pessoas com deficiência que precisam solicitar o benefício assistencial BPC/LOAS.</p>
+    </div>
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <path d="m9 11 2 2 4-4" stroke="#c9a84c" stroke-width="1.8"/>
+        </svg>
+      </div>
+      <h3>Pensão por Morte</h3>
+      <p>Orientação e atuação completa para dependentes que buscam receber pensão por morte de forma segura e sem complicações.</p>
+    </div>
+    <div class="sit-card">
+      <div class="sit-icon">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 21l1 -5l-1 -4l-3 -4h4l3 -3"/>
+          <path d="M6 16l-1 -4l3 -4"/>
+          <path d="M5 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"/>
+          <path d="M13.5 12h2.5l4 2"/>
+        </svg>
+      </div>
+      <h3>Auxílio-Acidente</h3>
+      <p>Atuação especializada para trabalhadores que ficaram com sequelas permanentes após acidente e possuem direito à indenização mensal paga pelo INSS.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW WE HELP -->
+<section class="how section-atuacao">
+  <div class="how-inner section-atuacao-wrapper">
+    
+    <div class="how-content atuacao-col-esquerda">
+      <h2>NOSSA FORMA DE <span class="gold">ATUAÇÃO</span></h2>
+      <ul class="how-list">
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Você não precisa sair de casa</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Envia mensagem a hora que quiser</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Atendimento 100% on line</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Atuação em todo o Brasil</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Linguagem simples e objetiva</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Sem burocracia, cuidamos de tudo</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Sigilo e segurança em todo o processo</li>
+      </ul>
+    </div>
+
+    <div class="how-image-center">
+      <img src="assets/img/carteira.png" alt="Carteira de Trabalho e Previdência Social" class="how-center-img">
+    </div>
+
+    <div class="how-content atuacao-col-direita">
+      <h2>COMO PODEMOS <span class="gold">TE AJUDAR</span></h2>
+      <ul class="how-list">
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Planejamento Previdenciário</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Aposentadorias por Idade</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Aposentadorias Especiais</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Aposentadorias Rural</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Pensão por Morte</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Auxílio Doença</li>
+        <li><span class="check-icon"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0d1b3e" stroke-width="3.5"><polyline points="20 6 9 17 4 12"/></svg></span>Correção e falha no CNIS</li>
+      </ul>
+    </div>
+
+    <p class="atuacao-objetivo">
+      Não espere mais para conhecer os seus direitos.
+    </p>
+
+  </div>
+</section>
+
+<!-- DIFFERENTIALS -->
+<section class="diff-strip">
+  <div class="differentials">
+    <div class="diff-card">
+      <div class="diff-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <div class="diff-texts">
+        <h3>Atendimento 100% Online em Todo o Brasil</h3>
+        <p>Atendemos clientes de forma prática, segura e totalmente online, oferecendo suporte jurídico previdenciário para todo o Brasil.</p>
+      </div>
+    </div>
+    <div class="diff-card">
+      <div class="diff-icon"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+      <div class="diff-texts">
+        <h3>Especialista em Direito Previdenciário</h3>
+        <p>Atuação focada em Direito Previdenciário, com atendimento estratégico e dedicado à defesa dos direitos dos segurados perante o INSS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2 class="section-title">O QUE DIZEM <span class="gold">NOSSOS CLIENTES</span></h2>
+  
+  <div class="carousel-container-outer">
+    <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Anterior">&#8249;</button>
+    <div class="carousel-wrap">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="test-card">
+          <img class="test-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria Aparecida">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Meu benefício foi negado duas vezes e o doutor conseguiu reverter no recurso. Muito profissional e atencioso!"</blockquote>
+          <cite>Maria Aparecida, SP</cite>
+        </div>
+        <div class="test-card">
+          <img class="test-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="João Carlos">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Estava há mais de 1 ano esperando a aposentadoria. Com o Dr. João, resolveu em poucos meses!"</blockquote>
+          <cite>João Carlos, MG</cite>
+        </div>
+        <div class="test-card">
+          <img class="test-avatar" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sandra Regina">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Excelente profissional! Me orientou em tudo e conseguiu o LOAS para minha mãe. Gratidão eterna!"</blockquote>
+          <cite>Sandra Regina, PR</cite>
+        </div>
+        <div class="test-card">
+          <img class="test-avatar" src="https://randomuser.me/api/portraits/men/54.jpg" alt="Roberto Silva">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Fui muito bem atendido. O Dr. João explicou tudo com clareza e conseguiu meu auxílio-doença rapidamente!"</blockquote>
+          <cite>Roberto Silva, RS</cite>
+        </div>
+        <div class="test-card">
+          <img class="test-avatar" src="https://randomuser.me/api/portraits/women/26.jpg" alt="Luciana Ferreira">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Achei que nunca conseguiria minha aposentadoria. Com a ajuda dele, tudo foi resolvido em tempo recorde!"</blockquote>
+          <cite>Luciana Ferreira, BA</cite>
+        </div>
+        <div class="test-card">
+          <img class="test-avatar" src="https://randomuser.me/api/portraits/men/71.jpg" alt="Antônio Pereira">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Profissional dedicado e honesto. Me orientou em cada etapa e o resultado foi melhor do que eu esperava!"</blockquote>
+          <cite>Antônio Pereira, GO</cite>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Próximo">&#8250;</button>
+  </div>
+  
+  <div class="carousel-dots-container">
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+</section>
+
+<!-- CTA BOTTOM -->
+<section class="cta-bottom">
+  <div class="cta-bottom-text">
+    <h2>NÃO ESPERE MAIS PARA<br>GARANTIR O SEU DIREITO!</h2>
+    <p>Fale agora com um advogado especialista.</p>
+  </div>
+  <div class="cta-bottom-right">
+    <a href="https://wa.me/5511917275963" class="btn-wa" target="_blank">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      QUERO ANALISAR MEU CASO
+    </a>
+    <p class="cta-note">Respostas rápidas e atendimento humanizado.</p>
+  </div>
+</section>
+
+<!-- FORMULÁRIO -->
+<section class="form-section">
+  <h2 class="section-title">INICIE SEU <span class="gold">ATENDIMENTO AGORA</span></h2>
+  <p class="form-subtitle">As informações abaixo nos ajudam a entender melhor o seu caso e a dar início ao seu atendimento.</p>
+  <div class="form-card">
+    <div class="form-group">
+      <label>Nome Completo <span class="req">*</span></label>
+      <input type="text" class="form-control" id="f-nome" placeholder="Ex: Maria da Silva">
+    </div>
+    <div class="form-group">
+      <label>Data de Nascimento</label>
+      <input type="date" class="form-control" id="f-nasc">
+    </div>
+    <div class="form-group">
+      <label>Cidade</label>
+      <input type="text" class="form-control" id="f-cidade" placeholder="Ex: Marília">
+    </div>
+    <div class="form-group">
+      <label>Situação <span class="req">*</span></label>
+      <div class="toggle-group">
+        <button class="toggle-btn active" onclick="selectToggle(this)">Ativo</button>
+        <button class="toggle-btn" onclick="selectToggle(this)">Aposentado</button>
+        <button class="toggle-btn" onclick="selectToggle(this)">Afastado</button>
+        <button class="toggle-btn" onclick="selectToggle(this)">Desempregado</button>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Qual benefício ou problema? <span class="req">*</span></label>
+      <select class="form-control" id="f-assunto">
+        <option value="">Selecione...</option>
+        <option>Aposentadoria negada</option>
+        <option>Auxílio-doença cortado</option>
+        <option>LOAS/BPC indeferido</option>
+        <option>CNIS com erros</option>
+        <option>Demora no INSS</option>
+        <option>Perícia injusta</option>
+        <option>Outro</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Conte um pouco sobre sua situação</label>
+      <textarea class="form-control" id="f-msg" placeholder="Descreva brevemente o que aconteceu..."></textarea>
+    </div>
+    <button class="btn-submit" onclick="enviarWhatsApp()">Enviar e iniciar atendimento</button>
+    <p class="form-security">🔒 Seus dados são usados apenas para atendimento</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-info">
+      <div class="footer-logo">
+        <div class="logo-box">JB</div>
+        <div class="logo-text">
+          <h1>JOÃO BATISTA BERNARDO</h1>
+          <span class="oab-tag">ADVOGADO</span>
+          <span class="oab-num">OAB/SP 531.584</span>
+        </div>
+      </div>
+      <div class="footer-contacts">
+        <p class="footer-contacts-title">📞 Contato</p>
+        <div class="contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.7h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.05a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+5511917275963" style="color: inherit; text-decoration: none;">11 91727 5963</a>
+        </div>
+        <div class="contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          contatojoaobernardo.adv@gmail.com
+        </div>
+        <div class="contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          www.joaobernardo.adv.br
+        </div>
+      </div>
+    </div>
+    <div class="footer-maps-wrapper">
+      <div class="footer-map-col">
+        <p class="footer-map-city">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Marília / SP
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692!2d-49.9325434!3d-22.2352566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDE0JzA2LjkiUyA0OcKwNTUnNTcuMiJX!5e0!3m2!1spt-BR!2sbr!4v1700000000001!5m2!1spt-BR!2sbr"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="footer-map-address">
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rua Jorge Bernardoni, 733 - Jardim Itaipu, Marília / SP, CEP 17519-580
+          </div>
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Seg a Sex: 09h às 17h
+          </div>
+        </div>
+      </div>
+      <div class="footer-map-col">
+        <p class="footer-map-city">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          São Paulo / SP
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2!2d-46.7119!3d-23.5533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce574e0e1f8f27%3A0x1!2sR.+Erva+Caf%C3%A9%2C+89+-+Vila+Boacava%2C+S%C3%A3o+Paulo+-+SP%2C+05170-120!5e0!3m2!1spt-BR!2sbr!4v1700000000002!5m2!1spt-BR!2sbr"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="footer-map-address">
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            R. Erva Café, 89 - Vila Boacava, São Paulo - SP, CEP 05170-120
+          </div>
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Seg a Sex: 09h às 17h
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 João Batista Bernardo — Todos os direitos reservados</p>
+    <p><strong>Atendimento Online para Todo o Brasil 🇧🇷</strong></p>
+    <div class="footer-dev">
+      <span>Desenvolvido por Victor Hugo</span>
+      <a href="https://www.linkedin.com/in/victor-hugo-brahim-affonso-576766326/" target="_blank" rel="noopener noreferrer" title="LinkedIn de Victor Hugo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5511917275963" 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   aria-label="Falar pelo WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <span class="whatsapp-tooltip">Fale conosco!</span>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
