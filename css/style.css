@@ -176,7 +176,6 @@ header {
 .carousel-track { display: flex; gap: 24px; transition: transform 0.4s ease; width: 100%; }
 .test-card { border: 1.5px solid var(--gray-mid); border-radius: 12px; padding: 28px 22px 22px; text-align: left; transition: box-shadow 0.2s, transform 0.2s; flex: 0 0 calc((100% - 48px) / 3); box-sizing: border-box; }
 .test-card:hover { box-shadow: 0 8px 28px rgba(13,27,62,0.09); transform: translateY(-4px); }
-.test-avatar { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; display: block; margin-bottom: 14px; border: 3px solid var(--gold); }
 .stars { color: var(--gold); font-size: 16px; letter-spacing: 3px; margin-bottom: 12px; }
 .test-card blockquote { font-size: 16px; color: var(--text-gray); line-height: 1.7; margin-bottom: 14px; font-style: italic; }
 .test-card cite { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px; color: var(--navy); font-style: normal; }
